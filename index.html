@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Matias dos Santos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Matias dos Santos</h1>
+
+    <img src="media/cv photo.png" alt="">
+
+    <p id="introduccion">Soy un estudiante de 28 años y administrativo contable recibido que actualmente cursa el segundo año de contabilidad en la facultad. Además, soy un trabajador destacado en una empresa de transporte de personas. Recientemente, he estado orientando mi carrera hacia el desarrollo web. Mi pasión por la tecnología y mi deseo de adquirir nuevas habilidades me han llevado a explorar este campo en crecimiento.</p>
+
+    <!-- LISTA DE LA WEB -->
+    <div class="container1">
+        <ul id="lista1">
+            <li><a href="#Experiencia_profesional">Experiencia profesional</a></li>
+            <li><a href="#Habilidades_conocimientos">Habilidades y conocimientos</a></li>
+            <li><a href="#Educacion">Educación</a></li>
+            <li><a href="#Perfiles_sociales">Perfiles sociales</a></li>
+            <li><a href="contacto.html">Contactar</a></li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCIA PROFESIONAL -->
+    <h2 class="espaciadostandar">Experiencia profesional</h2>
+    <p id="Experiencia_profesional"></p>
+    
+    <pre><strong>Empresa / Organización                  Cargo                                 Localización                   Desde-hasta</strong>
+BUQUEBUS                                Agente de Turismo                     Uruguay- Montevideo            Julio 2019 - Actualidad
+Silvana Friedel PA                      Gestion y Marketing                   EEUU - Florida                 Enero 2018 - Actualidad
+Ricoh SA LA                             Back office                           Uruguay- Montevideo            Abril 2018 - Enero  2019
+BBVA                                    Back office en bolsa                  Uruguay- Montevideo            Setiembre 2017 - Abril 2018
+SANTANDER                               Atención al cliente                   Uruguay- Montevideo            Diciembre 2015 - Agosto 2017
+</pre>
+    <strong id="textorecomendacion">Poseo cartas de recomendación y referencia comprobable de todos mis trabajos anteriores</strong>
+
+    <!-- HABILIDADES Y CONOCIMIENTOS -->
+    <h2 id="Habilidades_conocimientos" class="espaciadostandar">Habilidades y conocimientos</h2>
+    <ul>
+        <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript, C#, SQL, Ruby.</li>
+        <li><strong>Analítica web/Métricas:</strong> Google Analytics, Google ad center</li>
+        <li><strong>Gestión:</strong> CitriX, Macros, Salesforce a nivel usuario, gestión de comunidades y organización de eventos, gestión de equipos, etc.</li>
+        <li><strong>Marketing:</strong> email marketing, Marketplace, CMR pipedrive, Rela Geek CRM, redes sociales.</li>
+    </ul>
+
+    <!-- EDUCACION -->
+    <h2 id="Educacion" class="espaciadostandar">Educación Formal</h2>
+    <pre>
+        Cursando Contador público UdelaR FCEA (2019) 
+        Bachillerato en ingeniería finalizado IAVA (2013)
+    </pre>
+
+    <h2 id="Educacion_Informal">Educación Informal</h2>
+    <pre>
+        <strong>Título                              Entidad                                               Promoción </strong>
+
+        Desarrollo web                      Plan Ceibal (Jóvenes a programar)                     2023 
+        Auxiliar administrativo contable    Escuela de Negocios BIOS                              2019
+        Diseño Grafico                      Casa de la Cultura                                    2011
+        Inglés
+    </pre>
+
+    <!-- REDES SOCIALES -->
+    <h2 id="Perfiles_sociales" class="espaciadostandar">Redes sociales</h2>
+    <p>También puedes encontrarme en:</p>
+    <div class="espaciadostandar">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/matias-dos-santos/">Matias dos Santos</a></li>
+            <li><a href="https://github.com/beaglecoding">Github</a></li>
+        </ul> 
+    </div>
+
+    <!-- formulario de contacto  -->
+    <div class="bordeada espaciadostandar">
+        <form class="formularioinferior">
+            <h2>Vías de contacto</h2><br>
+        
+            <label for="para">Para:</label>
+            <input type="text" name="para" id="para"><br>
+            
+            <label for="tematicas">Temáticas:</label>
+            <select name="tema" id="tematicas">
+                <option value="" hidden>--Elige un tema--</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Propuesta">Propuesta</option>
+                <option value="Reporte">Reporte</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+        
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" required><br>
+        
+            <label for="cuerpo">Cuerpo:</label>
+            <textarea name="cuerpo" id="cuerpo" rows="2" cols="25" placeholder="Escribe tu comentario aquí." maxlength="200" minlength="15"></textarea>
+        
+            <input type="submit" name="submit">
+        </form>
+    </div>
+
+    <footer>
+        <p class="Powered">Powered by Matias dos Santos</p>
+        <p><a href="mailto:matiasmartindossantos@gmail.com">matiasmartindossantos@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
